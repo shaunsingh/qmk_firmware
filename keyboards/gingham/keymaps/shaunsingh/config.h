@@ -1,4 +1,4 @@
-#define OLED_FONT_H "./keymaps/shaunsingh_oled/glcdfont.c"
+#define OLED_FONT_H "./keymaps/shaunsingh/glcdfont.c"
 #define OLED_TIMEOUT 600000
 #define OLED_BRIGHTNESS 128
 
