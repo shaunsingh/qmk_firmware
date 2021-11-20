@@ -8,6 +8,13 @@
 
 This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](https://ergodox-ez.com) keyboard, and the [Clueboard product line](https://clueboard.co).
 
+## Notes
+
+This fork adds support for my builds, currently: 
+
+My OLED version of the [Gingham](https://novelkeys.com/products/gingham-keyboard-kit), using the [I2C SSD1306](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) oled. 
+* I bought mine from [Amazon](https://www.amazon.com/MakerFocus-Display-SSD1306-3-3V-5V-Arduino/dp/B079BN2J8V?th=1) but you can find it elsewhere.
+
 ## Documentation
 
 * [See the official documentation on docs.qmk.fm](https://docs.qmk.fm)
