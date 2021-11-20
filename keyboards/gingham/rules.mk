@@ -24,3 +24,6 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 
 CUSTOM_MATRIX = lite
+OLED_DRIVER_ENABLE = yes
+WPM_ENABLE = yes
+UNICODE_ENABLE = yes
