@@ -1,4 +1,4 @@
-name: testing cli
+name: gingham testing cli because qmk doesn't want to work on aarch64-darwin
 
 on:
   push:
@@ -28,3 +28,8 @@ jobs:
       run: qmk pytest
     - name: Compile keyboard firmware
       run: qmk compile -kb gingham -km shaunsingh
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.4
+      with:
+        name: gingham_shaunsingh.hex
+        path: .build/gingham_shaunsingh.hex
