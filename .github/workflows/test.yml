@@ -24,8 +24,6 @@ jobs:
         submodules: recursive
     - name: Install dependencies
       run: pip3 install -r requirements-dev.txt
-    - name: Run tests
-      run: qmk pytest
     - name: Compile keyboard firmware
       run: qmk compile -kb gingham -km shaunsingh
     - name: Upload a Build Artifact
