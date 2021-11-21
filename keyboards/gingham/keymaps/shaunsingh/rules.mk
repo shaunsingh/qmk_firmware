@@ -25,7 +25,6 @@ CUSTOM_MATRIX = lite
 # needed for oled 
 OLED_ENABLE = yes           # Enable oled
 WPM_ENABLE = yes            # Enable WPM calculation
-UNICODE_ENABLE = yes        # Enable using unicode
 
 # VIA
 VIA_ENABLE = yes            # Enable editing config using VIA
